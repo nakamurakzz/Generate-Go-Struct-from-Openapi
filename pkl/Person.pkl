@@ -1,0 +1,16 @@
+@go.Package { name = "github.com/nakamurakzz/presentation/response/person" }
+module nakamurakzz.presentation.response.person
+
+import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.5.3#/go.pkl" 
+
+class Person extends go.Field {
+  structTags {
+    ["json"] = "%{name}"
+  }
+}
+
+@Person
+id: Int = 1
+
+@Person
+name: String = "test"
