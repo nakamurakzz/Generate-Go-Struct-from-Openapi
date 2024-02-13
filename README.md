@@ -1,22 +1,29 @@
 # Files
 ```bash
 .
+├── config
+│   └── server
+│       ├── Server.pkl.go
+│       └── init.pkl.go
 ├── pkl
+│   ├── AppConfig.pkl
 │   ├── Group.pkl
 │   └── Person.pkl
-├── presentation
-│   └── response
-│       ├── Group
-│       │   ├── Group.pkl.go
-│       │   └── init.pkl.go
-│       └── person
-│           ├── Person.pkl.go
-│           └── init.pkl.go
-├── main.go : entry point
+└── presentation
+    └── response
+        ├── Group
+        │   ├── Group.pkl.go
+        │   └── init.pkl.go
+        ├── person
+        │   ├── Person.pkl.go
+        │   └── init.pkl.go
+        └── response.go
 ```
 
-- pkl: directory for pkl definition files
-- presentation: directory for generated files
+- pkl directory: for pkl definition files
+- config/server directory: for generated go files
+- presentation/response directory: for generated go files
+  - response.go: manually written file to crete a struct for response
 
 # Usage
 ``` bash

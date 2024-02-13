@@ -1,4 +1,4 @@
-@go.Package { name = "github.com/nakamurakzz/presentation/response/Group" }
+@go.Package { name = "github.com/nakamurakzz/presentation/response/group" }
 module nakamurakzz.presentation.response.group
 
 import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.5.3#/go.pkl" 

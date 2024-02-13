@@ -1,0 +1,8 @@
+@go.Package { name = "github.com/nakamurakzz/config/server" }
+module nakamurakzz.config.server
+
+import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.5.3#/go.pkl" 
+
+host = "localhost"
+
+port = 8080
